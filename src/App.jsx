@@ -1,3 +1,11 @@
+import Compendium from './views/Compendium';
+
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className='app'>
+      <main>
+        <Compendium />
+      </main>
+    </div>
+  )
 }
