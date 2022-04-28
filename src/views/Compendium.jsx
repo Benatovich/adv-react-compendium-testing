@@ -7,9 +7,9 @@ import {
     fetchSortedPokemon,
     fetchTypes,
 } from '../services/pokemon'
-import pokeball from '../assets/pokeball-logo'
-import pokeloading from '../assets/pokeloading'
-import pokeballOpen from '../assets/pokeball-open'
+import pokeball from '../assets/pokeball-logo.png'
+import pokeloading from '../assets/pokeloading.gif'
+import pokeballOpen from '../assets/pokeball-open.png'
 import Controls from '../components/Controls'
 
 export default function Compendium() {

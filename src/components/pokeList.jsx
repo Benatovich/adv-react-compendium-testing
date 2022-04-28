@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import propTypes from 'prop-types'
 import Pokemon from './Pokemon'
 
 export default function PokeList({ pokemons }) {
@@ -15,17 +15,17 @@ export default function PokeList({ pokemons }) {
     )
 }
 
-PokeList.PropTypes = {
-    pokemons: PropTypes.arrayOf(
-        PropTypes.shape({
-            id: PropTypes.number.isRequired,
-            name: PropTypes.string.isRequired,
-            abilityOne: PropTypes.string.isRequired,
-            abilityTwo: PropTypes.string.isRequired,
-            typeOne: PropTypes.string.isRequired,
-            typeTwo: PropTypes.string.isRequired,
-            pic: PropTypes.string.isRequired,
-            generation: PropTypes.string.isRequired,
+PokeList.propTypes = {
+    pokemons: propTypes.arrayOf(
+        propTypes.shape({
+            id: propTypes.number.isRequired,
+            name: propTypes.string.isRequired,
+            abilityOne: propTypes.string.isRequired,
+            abilityTwo: propTypes.string.isRequired,
+            typeOne: propTypes.string.isRequired,
+            typeTwo: propTypes.string.isRequired,
+            pic: propTypes.string.isRequired,
+            generation: propTypes.string.isRequired,
         })
     ).isRequired,
 }
