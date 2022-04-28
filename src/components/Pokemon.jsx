@@ -1,4 +1,5 @@
 import propTypes from 'prop-types'
+import './Pokemon.css'
 
 export default function Pokemon({ pokemon }) {
     const { name, abilityOne, abilityTwo, typeOne, typeTwo, pic, generation } = pokemon

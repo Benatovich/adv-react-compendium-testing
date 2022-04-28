@@ -1,5 +1,6 @@
 import propTypes from 'prop-types'
 import Pokemon from './Pokemon'
+import './PokeList.css'
 
 export default function PokeList({ pokemons }) {
     return (
