@@ -1,6 +1,7 @@
+import './App.css'
 import Compendium from './views/Compendium';
 
-export default function App() {
+function App() {
   return (
     <div className='app'>
       <main>
@@ -9,3 +10,5 @@ export default function App() {
     </div>
   )
 }
+
+export default App

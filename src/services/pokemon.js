@@ -4,7 +4,7 @@ const favPokemon = [
     'squirtle',
     'cyndaquil',
     'cubone',
-    'farfetch\'d',
+    'farfetchd',
     'drowzee',
     'gengar',
     'raticate',
