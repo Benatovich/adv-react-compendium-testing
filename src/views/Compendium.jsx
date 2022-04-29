@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import PokeList from '../components/PokeList'
+import { useState, useEffect } from 'react';
+import PokeList from '../components/PokeList.jsx';
 import {
     fetchFilteredPokemon,
     fetchPokemon,

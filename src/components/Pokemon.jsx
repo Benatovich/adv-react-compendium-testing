@@ -9,7 +9,7 @@ export default function Pokemon({ pokemon }) {
 
     return (
         <figure aria-label='pokemon'>
-            <img src={pic} alt={`${name}-${generation}`} />
+            <img aria-label='pokepic' src={pic} alt={`${name}-${generation}`} />
             <div className='details'>
                 <h2 aria-label='pokename'>{name}</h2>
                 <p>{generation}</p>
