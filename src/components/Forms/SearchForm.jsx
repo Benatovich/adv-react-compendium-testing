@@ -6,6 +6,7 @@ export default function SearchForm({ name, handleSubmit, handleNameChange }) {
                 id='pokename'
                 name='search'
                 type='text'
+                aria-label='searchFormInput'
                 onChange={(e) => handleNameChange(e.target.value)}
                 value={name}
             />
